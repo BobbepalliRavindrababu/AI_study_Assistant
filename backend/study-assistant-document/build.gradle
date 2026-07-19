@@ -1,0 +1,4 @@
+// Build configuration for the study-assistant-document module
+dependencies {
+    // Standard library usage only
+}

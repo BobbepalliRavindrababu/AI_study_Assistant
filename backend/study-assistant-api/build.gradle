@@ -1,0 +1,5 @@
+dependencies {
+    implementation project(':study-assistant-document')
+    implementation project(':study-assistant-ai')
+    implementation 'com.google.code.gson:gson:2.10.1'
+}

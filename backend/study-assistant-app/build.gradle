@@ -1,0 +1,14 @@
+plugins {
+    id 'application'
+}
+
+dependencies {
+    implementation project(':study-assistant-api')
+    implementation project(':study-assistant-document')
+    implementation project(':study-assistant-ai')
+}
+
+application {
+    mainModule = 'study.assistant.app'
+    mainClass = 'study.assistant.app.Main'
+}

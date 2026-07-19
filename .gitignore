@@ -1,0 +1,27 @@
+# IDE and System Files
+.idea/
+.vscode/
+*.iml
+*.swp
+.DS_Store
+Thumbs.db
+*.log
+
+# Sensitive Credentials
+.env
+.env.local
+
+# Backend Gradle & Java
+backend/.gradle/
+backend/build/
+backend/out/
+backend/*/build/
+backend/*/bin/
+*.class
+
+# Frontend Node & Vite
+frontend/node_modules/
+frontend/dist/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*

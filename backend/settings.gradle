@@ -1,0 +1,5 @@
+rootProject.name = 'study-assistant-backend'
+include 'study-assistant-document'
+include 'study-assistant-ai'
+include 'study-assistant-api'
+include 'study-assistant-app'
